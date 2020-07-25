@@ -10,7 +10,7 @@ After disassembling you need to find one of supported strings, f.e.
 "UnityEngine.QualitySettings::set_vSyncCount"
 ```
 
-and check xref for one function that is using them all. Decompile this function and as an example you will get:
+and check xref for one function that is using many strings looking similar to one you have found (if you have found function that is using only one string, this function is wrong). Decompile this function and as an example you will get:
 ```
 FUN_7101667280("UnityEngine.QualitySettings::set_pixelLightCount",&LAB_71019f3ed0);
 FUN_7101667280("UnityEngine.QualitySettings::set_shadowCascade2Split",&LAB_71019f41d0);
