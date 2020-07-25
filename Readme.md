@@ -32,7 +32,7 @@ Replace: leave empty window
 You should now have all lines only with 8 characters in each line. 
 Select them all, copy it and paste in hex editor to hex window, f.e. by using HxD.
 
-Save this file as `build_id`.hex and put to folder with title_id of game. title_id folder put to `sdmc:/SaltySD/plugins/UnityGraphics`
+Save this file as `build_id`.hex and put to folder with title_id of game af folder name. title_id folder put to `sdmc:/SaltySD/plugins/UnityGraphics`
 
 For example for Pokemon Mystery Dungeon 1.0.2 full path file will be:
 ```
