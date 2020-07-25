@@ -20,8 +20,8 @@ get_lodBias=0x019F4290
 set_lodBias=0x019F42C0
 get_anisotropicFiltering=0x019F42F0
 set_anisotropicFiltering=0x019F4320
-get_masterTextureLimit=0x019F4350
-set_masterTextureLimit=0x019F4380	
+get_masterTextureLimit=0x00000000
+set_masterTextureLimit=0x00000000
 get_maximumLODLevel=0x019F43B0
 set_maximumLODLevel=0x019F43E0
 get_particleRaycastBudget=0x019F4410
@@ -58,5 +58,10 @@ get_streamingMipmapsAddAllCameras=0x019F49E0
 set_streamingMipmapsAddAllCameras=0x019F4A10
 get_streamingMipmapsMaxFileIORequests=0x019F4A40
 set_streamingMipmapsMaxFileIORequests=0x019F4A70	
-get_maxQueuedFrames=0x019F4AA0
-set_maxQueuedFrames=0x019F4AB0
+get_maxQueuedFrames=0x00000000
+set_maxQueuedFrames=0x00000000
+
+Comments:
+- trying to change mastertexturelimit results in crash
+- trying to get maxQueuedFrames results in crash
+- changing anisotropicFiltering has irregular behaviour. In some scenes changing it in specific combination can result in crash. If game will not crash after change, then scene that was crashing before with this option set now it won't crash. Try it on different locations to get different results. 
