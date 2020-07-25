@@ -65,3 +65,4 @@ Comments:
 - trying to change mastertexturelimit results in crash
 - trying to get maxQueuedFrames results in crash
 - changing anisotropicFiltering has irregular behaviour. In some scenes changing it in specific combination can result in crash. If game will not crash after change, then scene that was crashing before with this option set now it won't crash. Try it on different locations to get different results. 
+- ShadowDistance and ShadowResolution are overrided in next frame by game. There are plans to implement things that will prevent game from overriding our settings.
