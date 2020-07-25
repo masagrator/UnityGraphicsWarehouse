@@ -38,3 +38,6 @@ For example for Pokemon Mystery Dungeon 1.0.2 full path file will be:
 ```
 sdmc:/SaltySD/plugins/UnityGraphics/01003D200BAA2000/3AB632DEE82D59448599B2291F30994A00000000000000000000000000000000.hex
 ```
+
+If you want to pull request new games/versions, you need to upload hex file with template file. You can check folder stated above as an example.
+UnityGraphics will introduce new settings in next few months and each new update like this can break those files, so template is necessary to convert files to newer versions faster.
