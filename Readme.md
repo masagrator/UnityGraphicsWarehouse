@@ -1,6 +1,6 @@
 # List of currently supported games
 
-- Pokémon Mystery Dungeon™: Rescue Team DX 1.0.2
+- Pokémon Mystery Dungeon™: Rescue Team DX 1.0.2 (TID: 01003D200BAA2000)
 
 ---
 
