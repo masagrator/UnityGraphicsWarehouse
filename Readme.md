@@ -1,3 +1,9 @@
+# List of currently supported games
+
+- Pokémon Mystery Dungeon™: Rescue Team DX 1.0.2
+
+---
+
 # How to create your own file
 
 You need to disassemble main from exefs. You can do that f.e. with free tool Ghidra.
