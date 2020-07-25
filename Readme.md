@@ -21,8 +21,12 @@ We have two variables. Second variable has offset for function related to first 
 
 You can use template.txt to paste offsets in correct order.
 
-After completing all offsets (if there is no offset available in game code, leave it as `00000000`) you can use regular expressions to delete everything unnecesary, f.e. Find&Replace:
+After completing all offsets (if there is no offset available in game code, leave it as `00000000`) you can use regular expressions to delete everything unnecesary, f.e. 
+
+Find&Replace:
+
 Find: `^(.*)=0x`
+
 Replace: leave empty window
 
 You should now have all lines only with 8 characters in each line. 
