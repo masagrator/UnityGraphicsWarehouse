@@ -61,6 +61,11 @@ set_streamingMipmapsMaxFileIORequests=0x019F4A70
 get_maxQueuedFrames=0x00000000
 set_maxQueuedFrames=0x00000000
 
+get_width=0x019ee900
+get_height=0x019ee920
+SetResolution=0x019eebc0
+
+
 Comments:
 - trying to change mastertexturelimit results in crash
 - trying to get maxQueuedFrames results in crash
