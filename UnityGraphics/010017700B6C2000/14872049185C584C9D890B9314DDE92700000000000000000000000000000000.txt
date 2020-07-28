@@ -18,10 +18,10 @@ UnityEngine.QualitySettings::get_shadowCascade2Split =0x0185E210
 UnityEngine.QualitySettings::set_shadowCascade2Split =0x0185E240
 UnityEngine.QualitySettings::get_lodBias =0x0185E270
 UnityEngine.QualitySettings::set_lodBias =0x0185E2A0
-UnityEngine.QualitySettings::get_anisotropicFiltering =0x00000000					//string present but not used
-UnityEngine.QualitySettings::set_anisotropicFiltering =0x00000000					//related to the one above
-UnityEngine.QualitySettings::get_masterTextureLimit =0x00000000						//crashes the game after being changed
-UnityEngine.QualitySettings::set_masterTextureLimit =0x00000000						//related to the one above
+UnityEngine.QualitySettings::get_anisotropicFiltering =0x00000000					
+UnityEngine.QualitySettings::set_anisotropicFiltering =0x00000000					
+UnityEngine.QualitySettings::get_masterTextureLimit =0x00000000						
+UnityEngine.QualitySettings::set_masterTextureLimit =0x00000000						
 UnityEngine.QualitySettings::get_maximumLODLevel =0x0185E330
 UnityEngine.QualitySettings::set_maximumLODLevel =0x0185E360
 UnityEngine.QualitySettings::get_particleRaycastBudget =0x0185E390
@@ -38,29 +38,34 @@ UnityEngine.QualitySettings::get_asyncUploadTimeSlice =0x0185E570
 UnityEngine.QualitySettings::set_asyncUploadTimeSlice =0x0185E5A0
 UnityEngine.QualitySettings::get_asyncUploadBufferSize =0x0185E5D0
 UnityEngine.QualitySettings::set_asyncUploadBufferSize =0x0185E600
-UnityEngine.QualitySettings::get_asyncUploadPersistentBuffer =0x00000000			//string not present in main
-UnityEngine.QualitySettings::set_asyncUploadPersistentBuffer =0x00000000			//related to the one above
+UnityEngine.QualitySettings::get_asyncUploadPersistentBuffer =0x00000000			
+UnityEngine.QualitySettings::set_asyncUploadPersistentBuffer =0x00000000			
 UnityEngine.QualitySettings::get_realtimeReflectionProbes =0x0185E630
 UnityEngine.QualitySettings::set_realtimeReflectionProbes =0x0185E660
 UnityEngine.QualitySettings::get_billboardsFaceCameraPosition =0x0185E690
 UnityEngine.QualitySettings::set_billboardsFaceCameraPosition =0x0185E6C0
 UnityEngine.QualitySettings::get_resolutionScalingFixedDPIFactor =0x0185E6F0
 UnityEngine.QualitySettings::set_resolutionScalingFixedDPIFactor =0x0185E720
-UnityEngine.QualitySettings::get_blendWeights =0x00000000							//string present but not used
-UnityEngine.QualitySettings::set_blendWeights =0x00000000							//related to the one above
-UnityEngine.QualitySettings::get_streamingMipmapsActive =0x00000000					//string not present in main
-UnityEngine.QualitySettings::set_streamingMipmapsActive =0x00000000					//related to the one above
-UnityEngine.QualitySettings::get_streamingMipmapsMemoryBudget =0x00000000			//string not present in main
-UnityEngine.QualitySettings::set_streamingMipmapsMemoryBudget =0x00000000			//related to the one above
-UnityEngine.QualitySettings::get_streamingMipmapsMaxLevelReduction =0x00000000		//string not present in main
-UnityEngine.QualitySettings::set_streamingMipmapsMaxLevelReduction =0x00000000		//related to the one above
-UnityEngine.QualitySettings::get_streamingMipmapsAddAllCameras =0x00000000			//string not present in main
-UnityEngine.QualitySettings::set_streamingMipmapsAddAllCameras =0x00000000			//related to the one above
-UnityEngine.QualitySettings::get_streamingMipmapsMaxFileIORequests =0x00000000		//string not present in main
-UnityEngine.QualitySettings::set_streamingMipmapsMaxFileIORequests =0x00000000		//related to the one above
-UnityEngine.QualitySettings::get_maxQueuedFrames =0x00000000						//string not present in main
-UnityEngine.QualitySettings::set_maxQueuedFrames =0x00000000						//related to the one above
+UnityEngine.QualitySettings::get_blendWeights =0x00000000							
+UnityEngine.QualitySettings::set_blendWeights =0x00000000							
+UnityEngine.QualitySettings::get_streamingMipmapsActive =0x00000000					
+UnityEngine.QualitySettings::set_streamingMipmapsActive =0x00000000					
+UnityEngine.QualitySettings::get_streamingMipmapsMemoryBudget =0x00000000			
+UnityEngine.QualitySettings::set_streamingMipmapsMemoryBudget =0x00000000			
+UnityEngine.QualitySettings::get_streamingMipmapsMaxLevelReduction =0x00000000		
+UnityEngine.QualitySettings::set_streamingMipmapsMaxLevelReduction =0x00000000		
+UnityEngine.QualitySettings::get_streamingMipmapsAddAllCameras =0x00000000			
+UnityEngine.QualitySettings::set_streamingMipmapsAddAllCameras =0x00000000			
+UnityEngine.QualitySettings::get_streamingMipmapsMaxFileIORequests =0x00000000		
+UnityEngine.QualitySettings::set_streamingMipmapsMaxFileIORequests =0x00000000		
+UnityEngine.QualitySettings::get_maxQueuedFrames =0x00000000						
+UnityEngine.QualitySettings::set_maxQueuedFrames =0x00000000	
 
 UnityEngine.Screen::get_width =0x0185B0A0
 UnityEngine.Screen::get_height =0x0185B0C0
-UnityEngine.Screen::SetResolution =0x00000000										//string present but not used
+UnityEngine.Screen::SetResolution =0x00000000										
+
+
+Comments:
+- trying to change mastertexturelimit results in crash
+- most of the missing settings either dont have their string in main or their string is not used in it
