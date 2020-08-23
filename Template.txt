@@ -64,3 +64,7 @@ UnityEngine.QualitySettings::set_maxQueuedFrames =0x00000000
 UnityEngine.Screen::get_width =0x00000000
 UnityEngine.Screen::get_height =0x00000000
 UnityEngine.Screen::SetResolution =0x00000000
+
+UnityEngine.ScalableBufferManager::get_widthScaleFactor =0x00000000
+UnityEngine.ScalableBufferManager::get_heightScaleFactor =0x00000000
+UnityEngine.ScalableBufferManager::ResizeBuffers =0x00000000
