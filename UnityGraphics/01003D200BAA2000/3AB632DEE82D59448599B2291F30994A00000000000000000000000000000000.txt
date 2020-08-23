@@ -65,9 +65,13 @@ UnityEngine.Screen::get_width =0x019ee900
 UnityEngine.Screen::get_height =0x019ee920
 UnityEngine.Screen::SetResolution =0x019eebc0
 
+UnityEngine.ScalableBufferManager::get_widthScaleFactor =0x019f03d0
+UnityEngine.ScalableBufferManager::get_heightScaleFactor =0x019f03f0
+UnityEngine.ScalableBufferManager::ResizeBuffers =0x00000000
 
 Comments:
 - trying to change mastertexturelimit results in crash
 - trying to get maxQueuedFrames results in crash
 - changing anisotropicFiltering has irregular behaviour. In some scenes changing it in specific combination can result in crash. If game will not crash after change, then location that was crashing before where we were changing anisotropicFiltering won't crash if we will go back there. Try it on different locations to get different results. 
 - ShadowDistance and ShadowResolution are overrided in next frame by game. There are plans to implement things that will prevent game from overriding our settings.
+- ResizeBuffers crashes when changing to anything except 100%
