@@ -21,7 +21,7 @@ UnityEngine.QualitySettings::set_lodBias =0x011979C0
 UnityEngine.QualitySettings::get_anisotropicFiltering =0x0119794C
 UnityEngine.QualitySettings::set_anisotropicFiltering =0x01197974
 UnityEngine.QualitySettings::get_masterTextureLimit =0x01197900
-UnityEngine.QualitySettings::set_masterTextureLimit =0x01197928
+UnityEngine.QualitySettings::set_masterTextureLimit =0x00000000
 UnityEngine.QualitySettings::get_maximumLODLevel =0x011979E4
 UnityEngine.QualitySettings::set_maximumLODLevel =0x01197A0C
 UnityEngine.QualitySettings::get_particleRaycastBudget =0x01197A30
@@ -68,3 +68,7 @@ UnityEngine.Screen::SetResolution =0x0119F634
 UnityEngine.ScalableBufferManager::get_widthScaleFactor =0x00000000
 UnityEngine.ScalableBufferManager::get_heightScaleFactor =0x00000000
 UnityEngine.ScalableBufferManager::ResizeBuffers =0x00000000
+
+Comments:
+- masterTextureLimit crashes game after changing value
+- antiAliasing doesn't change anything
