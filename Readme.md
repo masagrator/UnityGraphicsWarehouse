@@ -1,5 +1,6 @@
 # List of currently supported games
 
+- Furi 1.5.137 (TID: 01009D3008D20000)
 - Good Job! 1.0.0 (TID: 0100B0500FE4E000)
 - Layers of Fear: Legacy 1.0.0 (TID: 0100BF5006A7C000)
 - New Super Lucky's Tale 1.5.9 (TID: 010017700B6C2000)
