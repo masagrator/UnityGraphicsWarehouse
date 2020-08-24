@@ -9,6 +9,8 @@
 
 # How to create your own file
 
+This tutorial is dedicated to games made with Unity 2017.x and newer. It's possible to make files from older Unity games, but it needs different take.
+
 You need to disassemble main from exefs. You can do that f.e. with free tool Ghidra.
 
 After disassembling you need to find one of supported strings, f.e.
