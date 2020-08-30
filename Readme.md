@@ -5,6 +5,7 @@
 - Layers of Fear: Legacy 1.0.0 (TID: 0100BF5006A7C000)
 - New Super Lucky's Tale 1.5.9 (TID: 010017700B6C2000)
 - Ori and the Blind Forest: Definitive Edition (TID: 010061D00DB74000)
+- Peaky Blinders: Mastermind 1.0 (TID: 010002100CDCC000)
 - Pokémon Mystery Dungeon™: Rescue Team DX 1.0.2 (TID: 01003D200BAA2000)
 
 ---
