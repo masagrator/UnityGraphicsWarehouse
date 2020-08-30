@@ -7,6 +7,7 @@
 - Ori and the Blind Forest: Definitive Edition (TID: 010061D00DB74000)
 - Peaky Blinders: Mastermind 1.0 (TID: 010002100CDCC000)
 - Pokémon Mystery Dungeon™: Rescue Team DX 1.0.2 (TID: 01003D200BAA2000)
+- Windbound 1.0.36425.205 (TID: 010044000F7F2000)
 
 ---
 
