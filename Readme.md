@@ -1,5 +1,6 @@
 # List of currently supported games
 
+- Deadly Premonition 2 1.0.3 (TID: 0100BAC011928000)
 - Furi 1.5.137 (TID: 01009D3008D20000)
 - Good Job! 1.0.0 (TID: 0100B0500FE4E000)
 - Layers of Fear: Legacy 1.0.0 (TID: 0100BF5006A7C000)
